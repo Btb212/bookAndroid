@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <TextView
+            android:id="@+id/tv_classfamous_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="“世界太大，书太多，人太渺小，人难于选择。有时候宁愿自己是一个漫游者，在时间的长河里撷取芬芳，在广漠的空间中聆听共鸣，而承载这一切的是名著。那存在于异域的相似性是我们人性中的至亲，是挣脱语言障碍的永久羁绊。”"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/iv_classfamous_one"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/thelittleprince"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/iv_classfamous_one"
+                android:text="小王子" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/iv_classfamous_two"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/thebookthief"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/iv_classfamous_two"
+                android:text="偷书贼" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/iv_classfamous_three"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/wukong"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/iv_classfamous_three"
+                android:text="小王子" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

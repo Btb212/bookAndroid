@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1090"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">//
+
+        <ImageView
+            android:id="@+id/iv_mycollection_re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/re"
+           />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的收藏"
+            android:textSize="26sp"
+            android:gravity="center"
+            />
+..
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+<RelativeLayout
+    android:layout_width="130dp"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/iv_mycollection_one"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/prideandprejudice"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/iv_mycollection_one"
+        android:text="傲慢与偏见"
+        tools:ignore="UnknownId" />
+
+
+
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_mycollection_two"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/effect" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/iv_mycollection_two"
+                android:text="影响力" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/iv_mycollection_three"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/peopleandthing" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/iv_mycollection_three"
+                android:text="这些人，那些事" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_four"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/nomorerain" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_four"
+                android:text="雨季不再来" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_five"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/zibuyu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_five"
+                android:text="子不语" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_six"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/selfcontrol" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_six"
+                android:text="自控力" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_seven"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_seven"
+              />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_eight"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_eight"
+           />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/Iv_mycollection_nine"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/Iv_mycollection_nine"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
