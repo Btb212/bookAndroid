@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:orientation="horizontal">//
+        android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/iv_classfamous_re"
+            android:id="@+id/iv_classhistoy_re"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/re"
             />
 
         <TextView
-            android:id="@+id/tv_classfamous_book"
+            android:id="@+id/tv_classhistory_book"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="名著"
+            android:text="历史"
             android:textSize="26sp"
             android:gravity="center"
             />
@@ -40,10 +37,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="“世界太大，书太多，人太渺小，人难于选择。有时候宁愿自己是一个漫游者，在时间的长河里撷取芬芳，在广漠的空间中聆听共鸣，而承载这一切的是名著。那存在于异域的相似性是我们人性中的至亲，是挣脱语言障碍的永久羁绊。”"
-            />
+            android:text="“历史充满偶然，我们总是误会历史。历史没有真相，重要的是你怎么看。在蜗牛读书，分享读史的快乐。”"/>
 
     </LinearLayout>
+
     <TextView
         android:layout_marginLeft="28dp"
         android:layout_marginTop="10dp"
@@ -64,19 +61,19 @@
             android:layout_height="150dp">
 
             <ImageView
-                android:id="@+id/iv_classfamous_one"
+                android:id="@+id/iv_classhistory_one"
                 android:layout_width="80dp"
                 android:layout_height="120dp"
-                android:layout_marginLeft="30dp"
-                android:src="@drawable/thelittleprince"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/remember"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:layout_below="@id/iv_classfamous_one"
-                android:text="小王子" />
+                android:layout_below="@id/iv_classhistory_one"
+                android:text="记忆小屋" />
 
 
 
@@ -88,19 +85,19 @@
             android:layout_height="150dp">
 
             <ImageView
-                android:id="@+id/iv_classfamous_two"
+                android:id="@+id/iv_classhistory_two"
                 android:layout_width="80dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="30dp"
-                android:src="@drawable/thebookthief"
+                android:src="@drawable/china_history"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:layout_below="@id/iv_classfamous_two"
-                android:text="偷书贼" />
+                android:layout_below="@id/iv_classhistory_two"
+                android:text="中国大历史" />
 
 
 
@@ -112,19 +109,19 @@
             android:layout_height="150dp">
 
             <ImageView
-                android:id="@+id/iv_classfamous_three"
+                android:id="@+id/iv_classhistory_three"
                 android:layout_width="80dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="30dp"
-                android:src="@drawable/wukong"
+                android:src="@drawable/wangchao"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:layout_below="@id/iv_classfamous_three"
-                android:text="悟空传" />
+                android:layout_below="@id/iv_classhistory_three"
+                android:text="王朝物语" />
 
 
 
@@ -135,8 +132,6 @@
 
 
     </LinearLayout>
-
-
 
 
 

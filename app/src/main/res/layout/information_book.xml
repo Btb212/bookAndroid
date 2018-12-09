@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_information_re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/re"
+            />
+
+        <TextView
+            android:id="@+id/tv_information_book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="详情信息"
+            android:textSize="26sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_information_one"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/remember"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_information_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记忆小屋"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_information_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【美】 托尼·朱特，何静芝"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_information_title"
+            />
+        <TextView
+            android:id="@+id/tv_information_reader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="49人在读>"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_information_author"
+            />
+        <TextView
+            android:id="@+id/tv_information_press"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出版社：中信出版集团"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_information_reader"
+            />
+        <TextView
+            android:id="@+id/tv_information_presstime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018年7月"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv_information_press"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_information_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/tv_information_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本书是托尼·朱特 患“渐冻人症”后口述的回忆录，也是朱特仅有的谈论自己的作品。在一个无法动弹的寂静黑夜里，朱特以空间为线索搜索。整理了过往的记忆，筑成了一栋“记忆小屋”。他坦言，病中的写作基本上来自对记忆小屋的夜访。他有时关注小事，描写祖母的犹太料理、伦敦的绿线巴士，瑞士的小火车。有时放眼大千，论及西欧战后一代闹剧式的运动。时代的思想禁锢，以及自己对社会的观察与参与。这些文字在动人与锐利、私人性与公共性、具体发生的历史与身处其中的个体感受之间穿梭，追索的既是一个历史学家的人生历程，也是20世纪的复杂历史。"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_information_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读此书是一种怎么的体验？"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_information_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无回答>"
+            android:textSize="18sp"
+
+            android:layout_gravity="right"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_information_borrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="预订借书"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
